@@ -8,6 +8,26 @@ import platform
 from time import sleep
 import socket
 
+"""
+This Script requires the user to provide 3 arguments when calling from a terminal:
+1 - Select the system command (Ping, ipconfig, system info)
+2 - Enter path to file (text or Python file)
+3 - Type name of the environmental variable
+
+Script will check what type of file is the file to which the path is given.
+If it is a python file, the script will run it and if it is a text file, it will display the first line of the text.
+If the file does not exist, an exception will be called and information about it will be printed.
+If the task is successful, the script will set the FILE_FLAG flag to True
+
+The script will then check if there is an environment variable with the name given by the user.
+If so, the script will retrieve its value if it does not exist, create it and set it value to "DONE" and set the ENV_FLAG flag to True
+
+If both flags are True, the script will extract information about the system and user name and inform the user that
+in a moment the command which he has chosen in the introduction to the script will be run on this system.
+
+Translated with www.DeepL.com/Translator (free version)
+"""
+
 
 class UserApp:
 
