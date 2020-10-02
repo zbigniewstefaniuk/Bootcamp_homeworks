@@ -27,7 +27,6 @@ in a moment the command which he has chosen in the introduction to the script wi
 
 """
 
-
 class UserApp:
 
     def __init__(self, file_path: str):
