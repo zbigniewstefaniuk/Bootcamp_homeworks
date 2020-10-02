@@ -25,7 +25,6 @@ If so, the script will retrieve its value if it does not exist, create it and se
 If both flags are True, the script will extract information about the system and user name and inform the user that
 in a moment the command which he has chosen in the introduction to the script will be run on this system.
 
-Translated with www.DeepL.com/Translator (free version)
 """
 
 
